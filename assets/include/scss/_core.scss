@@ -75,3 +75,15 @@ h1, h2, h3, h4, h5, h6 {
   color: $g-primary;
   background-color: $g-white;
 }
+
+svg:not(:root) {
+  overflow: visible;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: #36a9e0;
+}

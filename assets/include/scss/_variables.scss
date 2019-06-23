@@ -69,6 +69,11 @@ $g-google:                                                      #d14130 !default
 $g-twitter:                                                     #1da1f2 !default;
 $g-instagram:                                                   #3f729b !default;
 $g-github:                                                      #24292e !default;
+$g-midnight-blue:                                               #191970 !default;
+$g-lightsky-blue:                                               #87cefa !default;
+$g-snow-white:                                                  #ffffff !default;
+$g-willpower-orange:                                            #fd5800 !default;
+$g-rich-black:                                                  #010b13 !default;
 
 // Accent Colors
 $g-accent-colors: () !default;
@@ -87,8 +92,8 @@ $g-social-network-colors: map-merge((
 ), $g-social-network-colors);
 
 // Theme Colors
-$g-primary:                                                     $g-purple !default;
-$g-secondary:                                                   $g-teal !default;
+$g-primary:                                                     $g-midnight-blue !default;
+$g-secondary:                                                   $g-lightsky-blue !default;
 $g-success:                                                     $g-green !default;
 $g-info:                                                        $g-blue !default;
 $g-warning:                                                     $g-yellow !default;
@@ -104,7 +109,7 @@ $g-theme-colors: map-merge((
   "warning":                                                    $g-warning,
   "danger":                                                     $g-danger,
   "light":                                                      $g-light,
-  "dark":                                                       $g-dark
+  "dark":                                                       $g-rich-black
 ), $g-theme-colors);
 
 

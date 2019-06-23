@@ -25,8 +25,111 @@
 
   <body>
     <main role="main">
-      <h1>Hello World!</h1>
+      <h1> Example of some maps and idea's </h1>
     </main>
+
+     <!-- Colors -->
+      <section id="js-scroll-to-section" class="u-content-space">
+        <div class="container">
+          <header class="w-md-50 mx-auto text-center mb-7">
+            <h2 class="h1 font-weight-light mb-1">Colors</h2>
+            <p>We've updated Bootstrap’s default colors to brighter and trendy color variations in order to improve the contrast and design.</p>
+          </header>
+
+          <ul class="list-unstyled row">
+            <li class="col-lg-3 text-center mb-7">
+              <div class="bg-primary rounded mb-2" style="padding: 50px 25px;">
+                <small class="text-white d-block">#59287a</small>
+                <span class="text-white">.bg-primary</span>
+              </div>
+              <span class="text-primary">.text-primary</span>
+            </li>
+
+            <li class="col-lg-3 text-center mb-7">
+              <div class="bg-secondary rounded mb-2" style="padding: 50px 25px;">
+                <small class="text-white d-block">#00c9a7</small>
+                <span class="text-white">.bg-secondary</span>
+              </div>
+              <span class="text-secondary">.text-secondary</span>
+            </li>
+
+            <li class="col-lg-3 text-center mb-7">
+              <div class="bg-success rounded mb-2" style="padding: 50px 25px;">
+                <small class="text-white d-block">#0dd157</small>
+                <span class="text-white">.bg-success</span>
+              </div>
+              <span class="text-success">.text-success</span>
+            </li>
+
+            <li class="col-lg-3 text-center mb-7">
+              <div class="bg-danger rounded mb-2" style="padding: 50px 25px;">
+                <small class="text-white d-block">#fb4143</small>
+                <span class="text-white">.bg-danger</span>
+              </div>
+              <span class="text-danger">.text-danger</span>
+            </li>
+
+            <li class="col-lg-3 text-center mb-7">
+              <div class="bg-warning rounded mb-2" style="padding: 50px 25px;">
+                <small class="text-white d-block">#fab633</small>
+                <span class="text-white">.bg-warning</span>
+              </div>
+              <span class="text-warning">.text-warning</span>
+            </li>
+
+            <li class="col-lg-3 text-center mb-7">
+              <div class="bg-info rounded mb-2" style="padding: 50px 25px;">
+                <small class="text-white d-block">#2972fa</small>
+                <span class="text-white">.bg-info</span>
+              </div>
+              <span class="text-info">.text-info</span>
+            </li>
+
+            <li class="col-lg-3 text-center mb-7">
+              <div class="bg-dark rounded mb-2" style="padding: 50px 25px;">
+                <small class="text-white d-block">#1b1e24</small>
+                <span class="text-white">.bg-dark</span>
+              </div>
+              <span class="text-dark">.text-dark</span>
+            </li>
+
+            <li class="col-lg-3 text-center mb-7">
+              <div class="bg-light rounded mb-2" style="padding: 50px 25px;">
+                <small class="text-dark d-block">#f6f9fc</small>
+                <span class="text-dark">.bg-light</span>
+              </div>
+              <span class="text-light bg-dark">.text-light</span>
+            </li>
+
+            <li class="col-lg-3 text-center mb-7">
+              <div class="bg-white u-box-shadow-sm rounded mb-2" style="padding: 50px 25px;">
+                <small class="text-dark d-block">#fff</small>
+                <span class="text-dark">.bg-white</span>
+              </div>
+              <span class="text-white bg-dark">.text-white</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End Colors -->
+
+      <hr>
+
+      <h1> Soft blue background, stroke width of 16,  Singelloop Enschede </H1>
+      <section id="js-scroll-to-section-map" class="u-content-space bg-blue">
+        <div class="container">
+          <div id="map" style="padding-left: 25px;"></div> 
+        </div>
+      </section>
+
+
+      <h1> Soft red background, stroke width of 10</H1>
+      <section id="js-scroll-to-section-map2"class="u-content-space bg-red">
+        <div class="container">
+          <div id="map2" style="padding-left: 25px;"></div> 
+        </div>  
+      </section>
+
 
     <!-- JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
     <!-- Global Vendor -->
@@ -34,9 +137,11 @@
     <script src="assets/vendors/jquery.migrate.min.js"></script>
     <script src="assets/vendors/popper.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v5.js"></script>
 
     <!-- Theme Settings and Calls -->
     <script src="assets/js/global.js"></script>
+    <script src="assets/js/custom.js"></script>
     <!-- END JAVASCRIPTS -->
   </body>
   <!-- End Body -->
