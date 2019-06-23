@@ -906,8 +906,9 @@ $(document).ready(function () {
 
     vis = d3.select("#map")
         .append("svg:svg")
-        .attr("width", 750)
-        .attr("height", 750);
+					.attr("viewBox", "0 0 500 500");
+        // .attr("width", 750)
+        // .attr("height", 750);
     
     vis.append("svg:g")
         .attr("class", "route")
@@ -933,8 +934,9 @@ $(document).ready(function () {
 
     vis2 = d3.select("#map2")
         .append("svg:svg")
-        .attr("width", 750)
-        .attr("height", 750);
+								.attr("viewBox", "0 0 500 500");
+        // .attr("viewBox", 750)
+        // .attr("height", 750);
     
     vis2.append("svg:g")
         .attr("class", "route2")
