@@ -2,3 +2,6 @@ body,html{font-size:1rem}.tab-content--v1 p:last-of-type,figure{margin-bottom:0}
 .bg-secondary {
     background-color: #87cefa !important;
 }
+.text-secondary {
+    color: #87cefa !important;
+}

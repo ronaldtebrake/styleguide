@@ -1300,3 +1300,6 @@ svg:not(:root) {
 .bg-secondary {
   background-color: #87cefa !important;
 }
+.text-secondary {
+  color: #87cefa !important;
+}
