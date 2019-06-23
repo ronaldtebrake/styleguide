@@ -1297,3 +1297,6 @@ svg:not(:root) {
 .u-opacity-6 {
   opacity: .6;
 }
+.bg-secondary {
+  background-color: #87cefa !important;
+}
