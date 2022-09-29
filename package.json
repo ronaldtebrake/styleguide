@@ -16,7 +16,7 @@
     "gulp-sass": "^3.1.0"
   },
   "dependencies": {
-    "d3": "^5.9.2",
+    "d3": "^7.6.1",
     "gulp-install": "^0.6.0"
   }
 }
